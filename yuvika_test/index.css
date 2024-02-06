@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1711px;
+  margin: auto;
+  background-color: #000;
+}
+img {
+  margin: 0;
+}
+.container {
+  max-width: 1366px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.header_section {
+  position: relative;
+}
+.header_right {
+  display: flex;
+}
+.logo {
+  height: 87px;
+  width: 35px;
+  left: 30px;
+  position: absolute;
+  left: 30px;
+}
+.lines {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  right: 120px;
+  top: 30px;
+}
+.line {
+  background-color: #fff;
+  height: 8px;
+}
+
+.header_image {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.landing_page {
+  position: relative;
+  max-width: 1280px;
+}
+.landing_backgroundtext {
+  position: relative;
+}
+.NFT {
+  width: 1200px;
+  margin: auto;
+  height: 300px;
+  position: absolute;
+  top: 80px;
+  z-index: 2;
+}
+.logo_image {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 605px;
+}
+.logo_boldText {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  left: 580px;
+  top: 25px;
+}
+.greyText {
+  color: #808080;
+  position: absolute;
+  font-size: 10px;
+  top: 60px;
+  left: 570px;
+}
+
+.boldText {
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  top: 60px;
+  left: 635px;
+}
+
+.dino2 {
+  position: absolute;
+  z-index: 3;
+  height: 300px;
+  left: 520px;
+  top: 80px;
+}
+.dino1{
+  position:absolute;
+  z-index:3;
+  height:200px;
+  top:200px;
+}
+.dino3{
+  position:absolute;
+  z-index:3;
+  height:200px;
+  top:220px;
+  right:20px;
+}
